@@ -3,6 +3,7 @@
     --greencolor: #33d1cc;
     --redcolor: #ff3150;
     --yellowcolor: #ffc400;
+    --sectioncolor: #eff7fa;
 }
 
 
@@ -20,6 +21,17 @@ body{
 .main-btn:hover{
     color: var(--yellowcolor);
 }
+
+.main-title::after{
+    content: ' ';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: var(--greencolor);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* Navbar ==>START  */
 .navbar {
@@ -55,8 +67,31 @@ body{
 
 /* Navbar ==>END */
 
-/* Landing==>START */
+/* Landing ==>START */
 .landing{
     background-color: var(--darkcolor);
     min-height: calc(100vh - 72px);
 }
+/* Landing ==>END */
+
+/* Features ==>START */
+.fet .icon-holder{
+    height: 200px;
+}
+
+.fet .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--greencolor)
+}
+
+.fet .icon-holder .number{
+    color: var(--sectioncolor);
+    height: 12rem;
+    bottom: 0;
+}
+
+.fet .fet-title{
+    color: var(--yellowcolor);
+}
+/* Features ==>END */
