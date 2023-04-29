@@ -5,6 +5,4 @@
 
 
 
-	<sub> 
- *Reference*: Elzero Web School
- </sub>
+<sub>*Reference*: Elzero Web School</sub>
