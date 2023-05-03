@@ -156,7 +156,7 @@ body{
 }
 /* Stuff ==>END */
 
-/* Our Team ==>Start */
+/* Our Team ==>START */
 .our-team{
     background-color: var(--sectioncolor);
 }
@@ -170,3 +170,9 @@ body{
 }
 
 /* Our Team ==>END */
+
+/* Project ==>START */
+.project{
+    background-color: var(--darkcolor);
+}
+/* Project ==>END */
