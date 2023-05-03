@@ -155,3 +155,18 @@ body{
     max-width: 500px;
 }
 /* Stuff ==>END */
+
+/* Our Team ==>Start */
+.our-team{
+    background-color: var(--sectioncolor);
+}
+
+.our-team h2{
+    color: var(--yellowcolor);
+}
+
+.our-team .box h4{
+    background-color: var(--greencolor);
+}
+
+/* Our Team ==>END */
