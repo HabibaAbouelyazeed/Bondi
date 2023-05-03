@@ -149,3 +149,9 @@ body{
 }
 
 /* Our Work ==>END */
+
+/* Stuff ==>START */
+.stuff .about-us{
+    max-width: 500px;
+}
+/* Stuff ==>END */
