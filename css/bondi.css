@@ -9,7 +9,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 100px;
 }
 
 .main-btn{
@@ -195,8 +194,39 @@ body{
 }
 
 .subscribe input[type='submit']{
-    border: none;
     background-color: var(--darkcolor);
     color: var(--yellowcolor);
 }
 /* Subscribe ==>END */
+
+/* Footer ==>START */
+footer{
+    background-color: var(--darkcolor);
+}
+
+footer .info .copyrights > span{
+    color: var(--greencolor);
+}
+
+footer .info .copyrights div span{
+    color: var(--yellowcolor);
+}
+
+footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+
+footer .contact .facebook{
+    background-color: #1877f2;
+}
+footer .contact .twitter{
+    background-color: #1da1f2;
+}
+footer .contact .linkedin{
+    background-color: #0a66c2;
+}
+footer .contact .youtube{
+    background-color: #ff0000;
+}
+/* Footer ==>END */
